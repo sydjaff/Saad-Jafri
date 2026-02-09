@@ -1,0 +1,63 @@
+<nav class="custom-nav">
+    <div class="nav-container">
+        {% comment %} left item {% endcomment %}
+            <div class="nav-item nav-left">
+                <a href="/" class="logo logo-text">
+                    {{ section.settings.logo_text }}
+                </a>
+            </div>
+
+
+        {% comment %} center item {% endcomment %}
+            <div class="nav-item nav-center">
+                <span class="promo-text">
+                    {{ section.settings.promo_text }}
+                </span>
+            </div> 
+         
+        {% comment %} right item {% endcomment %}
+            <div class="nav-item nav-right">
+                <a href="/" class="cta-btn-theme-btn">
+                    <span class="cta-btn-text">
+                    {{ section.settings.cta_text }}
+                    </span>
+                    <span class="cta-btn-icon">
+                        arrow icon here
+                    </span>
+                </a>
+            </div>
+
+    </div>
+</nav>
+
+{% schema  %} 
+{
+    "name":"Custom Header",
+        "settings": [
+            {
+                "type": "text",
+                "id": "logo_text",
+                "label": "Logo text",
+                "default": "Tisso Vision"
+            },
+            {
+                "type": "text",
+                "id": "promo_text",
+                "label": "Promo text",
+                "default": "Find the ideal gift for your loved ones."
+            },
+            {
+                "type": "text",
+                "id": "cta_text",
+                "label": "CTA Button Text",
+                "default": "Choose Gift"
+            },
+            {
+                "type": "url",
+                "id": "cta_btn_url",
+                "label": "CTA Button Url"
+            }
+        ]
+}
+
+{% endschema %}
