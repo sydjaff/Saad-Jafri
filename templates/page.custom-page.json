@@ -13,10 +13,10 @@
       "type": "custom-header",
       "custom_css": [
         "nav.custom-nav {background: #f5f5f5; display: flex;}",
-        "nav.custom-nav .nav-container {display: flex; justify-content: space-between; width: 100%; padding: 20px;}",
+        "nav.custom-nav .nav-container {display: flex; justify-content: space-between; width: 100%; padding: 20px; align-items: center;}",
         ".promo-text {font-size: 16px; line-height: 13.42px; font-weight: 400;}",
         "a.logo.logo-text {font-size: 18px; font-weight: 600; text-transform: uppercase;}",
-        "a.cta-btn-theme-btn {background: #fff544; padding: 16px 8px;}",
+        "a.cta-btn-theme-btn {background: #fff544; padding: 10px 16px; display: flex; align-items: center; gap: 10px;}",
         ".cta-btn-text {text-transform: uppercase;}"
       ],
       "settings": {
