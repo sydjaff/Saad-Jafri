@@ -12,8 +12,12 @@
     "header": {
       "type": "custom-header",
       "custom_css": [
-        "nav.custom-nav {background: #F5F5F5;display: flex;}",
-        "nav.custom-nav .nav-container {display: flex; justify-content: space-between; width: 100%; padding: 20px;}"
+        "nav.custom-nav {background: #f5f5f5; display: flex;}",
+        "nav.custom-nav .nav-container {display: flex; justify-content: space-between; width: 100%; padding: 20px;}",
+        ".promo-text {font-size: 16px; line-height: 13.42px; font-weight: 400;}",
+        "a.logo.logo-text {font-size: 18px; font-weight: 600; text-transform: uppercase;}",
+        "a.cta-btn-theme-btn {background: #fff544; padding: 16px 8px;}",
+        ".cta-btn-text {text-transform: uppercase;}"
       ],
       "settings": {
         "logo_text": "Tisso Vision",
