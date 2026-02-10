@@ -29,8 +29,12 @@
     "banner": {
       "type": "custom-banner",
       "custom_css": [
-        "section.custom-banner {background-size: cover; background-repeat: no-repeat; min-height: 780px; display: flex; align-items: end;}",
-        "section.custom-banner .banner-content {padding: 30px 10%; width: 50%;}"
+        "section.custom-banner {background-size: cover; background-repeat: no-repeat; min-height: 820px; display: flex; align-items: end;}",
+        "section.custom-banner .banner-content {padding: 0 20px; width: 40%;}",
+        "a.cta-btn {background: #000; display: inline-flex; align-items: center; gap: 10px; padding: 10px 30px; color: #fff; font-size: 16px;}",
+        "h1.banner-title {font-size: 70px; margin: 0;}",
+        "p.sub-text {font-size: 20px; padding: 11px 0;}",
+        "span.cta-icon svg path {fill: #fff;}"
       ],
       "settings": {
         "banner_image": "shopify://shop_images/banner-1.png",
