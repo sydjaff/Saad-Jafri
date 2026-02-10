@@ -29,7 +29,7 @@
     "banner": {
       "type": "custom-banner",
       "custom_css": [
-        "section.custom-banner {background-size: cover; background-repeat: no-repeat; min-height: 780px;}",
+        "section.custom-banner {background-size: cover; background-repeat: no-repeat; min-height: 780px; display: flex; align-items: end;}",
         "section.custom-banner .banner-content {padding: 30px 10%; width: 50%;}"
       ],
       "settings": {
