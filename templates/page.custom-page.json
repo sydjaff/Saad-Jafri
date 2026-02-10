@@ -28,8 +28,12 @@
     },
     "banner": {
       "type": "custom-banner",
+      "custom_css": [
+        "section.custom-banner {background-size: cover; background-repeat: no-repeat; min-height: 780px;}",
+        "section.custom-banner .banner-content {padding: 30px 10%; width: 50%;}"
+      ],
       "settings": {
-        "banner_image": "shopify://shop_images/banner-1.jpg",
+        "banner_image": "shopify://shop_images/banner-1.png",
         "heading": "The Gift Guide",
         "sub_text": "Discover Joy: Your Ultimate Holiday Gift Destination. Explore our curated selection and find the perfect gifts to delight your loved ones this holiday season.",
         "cta_text": "Shop Now",
