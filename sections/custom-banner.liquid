@@ -15,6 +15,9 @@
     </a>
 </div>
 </section>
+<div class="info-text">
+    <p>{{ section.settings.info_text }}</p>
+</div>
 
 
 {% schema %}
@@ -49,6 +52,12 @@
                 "type": "url",
                 "id": "cta_url",
                 "label": "CTA Button Url"
+            },
+            {
+                "type": "text",
+                "id": "info_text",
+                "label": "Informational Text",
+                "default": "SUSTAINABLE, ETHICALLY MADE CLOTHES IN SIZES XXS TO 6XL"
             }
         ]
     }
