@@ -34,19 +34,74 @@
         "a.cta-btn {background: #000; display: inline-flex; align-items: center; gap: 10px; padding: 10px 30px; color: #fff; font-size: 16px;}",
         "h1.banner-title {font-size: 70px; margin: 0;}",
         "p.sub-text {font-size: 20px; padding: 11px 0;}",
-        "span.cta-icon svg path {fill: #fff;}"
+        "span.cta-icon svg path {fill: #fff;}",
+        ".info-text {padding: 10px; background: #f5f5f5; text-align: center; font-size: 16px;}"
       ],
       "settings": {
         "banner_image": "shopify://shop_images/banner-1.png",
         "heading": "The Gift Guide",
         "sub_text": "Discover Joy: Your Ultimate Holiday Gift Destination. Explore our curated selection and find the perfect gifts to delight your loved ones this holiday season.",
         "cta_text": "Shop Now",
-        "cta_url": ""
+        "cta_url": "",
+        "info_text": "SUSTAINABLE, ETHICALLY MADE CLOTHES IN SIZES XXS TO 6XL"
       }
     },
     "grid": {
       "type": "custom-product-grid",
-      "settings": {}
+      "blocks": {
+        "product_block_66cJzK": {
+          "type": "product_block",
+          "settings": {
+            "selected_product": "black-leather-bag"
+          }
+        },
+        "product_block_dzhbLB": {
+          "type": "product_block",
+          "settings": {
+            "selected_product": "blue-silk-tuxedo"
+          }
+        },
+        "product_block_VBX93T": {
+          "type": "product_block",
+          "settings": {
+            "selected_product": "chequered-red-shirt"
+          }
+        },
+        "product_block_UUnARh": {
+          "type": "product_block",
+          "settings": {
+            "selected_product": "classic-leather-jacket"
+          }
+        },
+        "product_block_z3FpXH": {
+          "type": "product_block",
+          "settings": {
+            "selected_product": "classic-varsity-top"
+          }
+        },
+        "product_block_Q6MKC9": {
+          "type": "product_block",
+          "settings": {
+            "selected_product": "dark-denim-top"
+          }
+        }
+      },
+      "block_order": [
+        "product_block_66cJzK",
+        "product_block_dzhbLB",
+        "product_block_VBX93T",
+        "product_block_UUnARh",
+        "product_block_z3FpXH",
+        "product_block_Q6MKC9"
+      ],
+      "custom_css": [
+        "section.custom-product-grid-secion {padding: 60px 20px; max-width: 1400px; margin: 0 auto;}",
+        "section.custom-product-grid-secion h2.title {font-size: 36px; font-weight: 400;}",
+        "section.custom-product-grid-secion .product-grid-container {grid-template-columns: repeat(3,1fr);gap: 20px;}"
+      ],
+      "settings": {
+        "title": "Tisso vison in the wild"
+      }
     }
   },
   "order": [

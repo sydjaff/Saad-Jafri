@@ -4,7 +4,7 @@
     </h2>
     <div class="product-grid-container">
         {%  for block in section.blocks  %} 
-            {% assign product = all_product[block.settings.selected_product] %}
+            {% assign product = block.settings.selected_product %}
             {% if product != blank %}
                 <div class="product-card">
                     <div class="image-wrapper">
