@@ -1,0 +1,50 @@
+<section class="custom-product-grid-secion">
+    <h2 class="title">
+        {{ section.settings.title }}
+    </h2>
+    <div class="product-grid-container">
+        {%  for block in section.blocks  %} 
+            {% assign product = all_product[block.settings.selected_product] %}
+            {% if product != blank %}
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="{{ product.featured_image | image_url }}" alt="{{ product.title }}" >
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %} 
+    </div>
+</section>
+
+{% schema %}
+    {
+        "name": "Custom Product Grid",
+        "max_blocks": 6,
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Section Title",
+                "default": "Tisso vison in the wild"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "product_block",
+                "name":"Product",
+                "settings": [
+                    {
+                        "type":"product",
+                        "id": "selected_product",
+                        "label":"Choose Product"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Custom Product Grid"
+            }
+        ]
+    }
+{% endschema %}
